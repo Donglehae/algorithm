@@ -33,5 +33,3 @@ def solution(x):
     if x%sum > 0:
         answer = False
     return answer
-
-print(solution(120))
