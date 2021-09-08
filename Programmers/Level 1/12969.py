@@ -21,3 +21,8 @@ for _ in range(b):
     for _ in range(a):
         print('*', end='')
     print()
+
+# 다른 풀이
+# a, b = map(int, input().strip().split(' '))
+# answer = ('*'*a+'\n')*b
+# print(answer)
