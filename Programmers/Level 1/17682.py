@@ -30,18 +30,18 @@ def solution(dartResult):
 # 코드 리팩토링
 # def solution(dartResult):
 #   bonus = {'S': 1, 'D': 2, 'T': 3}
-#   buffer = []
+#   score = []
 #   temp = ''
-#   for val in dartResult:
+#   for val in dartResult:  
 #     if val.isdigit():
 #       temp += str(val)
 #     elif val.isalpha():
 #       temp = int(temp) ** bonus[val]
-#       buffer.append(temp)
+#       score.append(temp)
 #       temp = ''
 #     else:
 #       if val == '*':
-#         buffer[-2:] = [x*2 for x in buffer[-2:]]
+#         score[-2:] = [x*2 for x in score[-2:]]
 #       if val == '#':
-#         buffer[-1] = -buffer[-1]
-#   return sum(buffer)
+#         score[-1] = -score[-1]
+#   return sum(score)
