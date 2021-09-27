@@ -1,4 +1,4 @@
-# [1차] 다트게임
+# 2018 KAKAO BLIND RECRUITMENT [1차] 다트게임
 
 def solution(dartResult):
   answer = ''
