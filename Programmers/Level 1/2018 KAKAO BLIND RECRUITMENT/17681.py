@@ -1,4 +1,4 @@
-# 2018 KAKAO BLIND RECRUITMENT [1차] 비밀지도
+# [1차] 비밀지도
 
 def solution(n, arr1, arr2):
   answer = []
